@@ -24,3 +24,4 @@ The python script `[compiler.py](https://github.com/BartenderWinery/js.bookmark-
 6. Replaces any `; ` with `;`.
 > " ".join(re.compile(r"(\".*?\"|\'.*?\')|(/\*.*?\*/|//[^\r\n]*$)", re.MULTILINE|re.DOTALL).sub(_replacer, data).replace("\n",";").replace(":;",": ").replace("{;","{").split()).replace("; ",";")
 7. Returns to value to the orginial write function, compiling it to `compiled.js`.
+> return " ".join(re.compile(r"(\".*?\"|\'.*?\')|(/\*.*?\*/|//[^\r\n]*$)", re.MULTILINE|re.DOTALL).sub(_replacer, data).replace("\n",";").replace(":;",": ").replace("{;","{").split()).replace("; ",";")

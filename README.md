@@ -10,7 +10,7 @@
     2. Drag and drop any JS file to `compiler.exe`.
     3. The compiled source will be created in the same directory.
 ## Processing
-The python script `[compiler.py](https://github.com/BartenderWinery/js.bookmark-compiler/blob/main/compiler.py)` calucates the source file in the following sequence:
+The python script [compiler.py](https://github.com/BartenderWinery/js.bookmark-compiler/blob/main/compiler.py) calculates the source file in the following sequence:
 1. Opens the source file and reads it.
 > f.write("(()=>{"+compile(file.read())+"})()")
 2. Compiles the source for any comments by using different markup syntaxes.
